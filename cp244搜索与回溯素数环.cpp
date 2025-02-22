@@ -15,8 +15,9 @@
 输出太多
 */
 #include <iostream>
-using namespace std;
 #include <cmath>
+using namespace std;
+
 const int n = 4;
 
 int a[n + 1] = {0};  //a[i] 第i次选出的数字
