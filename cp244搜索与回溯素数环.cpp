@@ -20,7 +20,7 @@ using namespace std;
 
 const int n = 4;
 
-int a[n + 1] = {0};  //a[i] 第i次选出的数字
+int a[n + 1] = {0};  //a[i] 第i次选出的数字;素数环
 bool b[n + 1] = {0}; //b[i] 数字i是否被选过，0 没被选过，1 被选过
 int total = 0;  //总方案数
 void search(int t);
