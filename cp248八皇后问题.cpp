@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
 	return 0;
 }
 
-void search(int i) {
+void search(int i) {//选第i行的位置
 	int j;
 	for (j = 1; j <= 8; j++) {
 		if ((!b[j]) && (!c[i + j]) && (!d[i - j + 7])) {
